@@ -13,12 +13,12 @@ let haveIt = [];
 
 var DateTime = luxon.DateTime;
 const today = DateTime.local().day; // Utiliser DateTime.local().day pour la date réel, remplacer par un integer pour test.
-let joursUntil = 25 - today; // ! Remplacer 15 par today si date reel
+let joursUntil = 25 - today; // ! R
 
 
 // * Vérifie la date et grise les cases des jours déjà passé
 const checkDate = (text, date) => {
-  if ((date + 1) < today) { // ! Remplacer 15 par today si jour reel
+  if ((date + 1) < today) { // ! 
     text.style.filter = "grayscale(100%)";
     joursRestants.innerHTML = `${joursUntil} Jours avant Noël`;
     
@@ -43,7 +43,7 @@ const spawnSnowflakes = () => {
 
 // * Fonction utilisé pour gérer nos audios
 const playAudio = () => {
-  if (joursUntil <= 23 && joursUntil > 0) { // ! remplacer les nombres si jours reel
+  if (joursUntil <= 23 && joursUntil > 0) { // ! 
     if (audioMain.paused) {
       // Si l'audio principal est en pause, c'est qu'il n'est pas encore lancé
       audioMain.play();
@@ -122,7 +122,7 @@ const discoverAll = (text, img, path) => {
 
 // * Fonction utilisé pour fermer toutes les portes après les avoirs révélé
 const coverAll = (text, img) => {
-  joursUntil = 25 - today; // ! Remplacer 15 par today si jour reel
+  joursUntil = 25 - today; // ! 
   joursRestants.innerHTML = `${joursUntil} Jours avant Noël`;
   text.style.opacity = "1";
   text.style.cursor = "pointer";
