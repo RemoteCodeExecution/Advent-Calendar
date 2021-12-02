@@ -22,12 +22,9 @@ body {
 
 .titre {
   font-family: var(--fontpolicy);
-
   color: white;
-
   margin: 15px auto;
   text-align: center;
-
   pointer-events: none;
   width: 40rem;
   background-image: none;
@@ -51,7 +48,6 @@ body {
   text-align: center;
   color: white;
   margin-bottom: 30px;
-
   width: 10rem;
   height: 3rem;
   border: none;
@@ -98,7 +94,6 @@ body {
   border: none;
   margin-right: 50px;
   margin-bottom: 30px;
-
   width: 15rem;
   height: 3rem;
   border-radius: 0.2em;
@@ -144,13 +139,10 @@ body {
 .container {
   width: 800px;
   height: 500px;
-
   margin-top: 1rem;
   justify-content: center;
-
   background-image: none;
   background-size: cover;
-
   display: grid;
   grid-template-columns: repeat(6, 150px);
   grid-template-rows: repeat(4, 150px);
@@ -173,15 +165,11 @@ body {
   height: 100%;
   width: 100%;
   color: white;
-
   border-style: outset;
   border-width: 5px;
   border-color: #235e6f;
-
   transition: opacity 2.5s;
-
   background-image: none;
-
   font-family: var(--fontpolicy);
   font-size: 3em;
   text-align: center;
